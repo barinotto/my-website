@@ -1,0 +1,101 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: #343434;
+}
+
+#container {
+    background-color:black;
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    padding: 0px;
+    text-align: center;
+
+}
+
+#content {
+    padding: 20px;
+}
+
+header {
+    background-image:url(Banner.JPG);
+    color: black;
+}
+
+footer {
+    background-color:black;
+    color:white;
+}
+
+#home {
+    width: 115px;
+    height: 60px;
+    background:url(Home2.png);
+    margin: 5px;
+}
+
+#home:hover{
+    background:url(Home1.png);
+}
+
+#family {
+    width: 115px;
+    height: 60px;
+    background:url(Family2.png);
+    margin: 5px;
+}
+
+#family:hover{
+    background:url(Family1.png);
+}
+
+#hobbies {
+    width: 115px;
+    height: 60px;
+    background:url(Hobbies2.png);
+    margin: 5px;
+}
+
+#hobbies:hover{
+    background:url(Hobbies1.png);
+}
+
+#pets {
+    width: 115px;
+    height: 60px;
+    background:url(Pets2.png);
+    margin: 5px;
+}
+
+#pets:hover{
+    background:url(Pets1.png);
+}
+
+#concerts {
+    width: 115px;
+    height: 60px;
+    background:url(Concerts2.png);
+    margin: 5px;
+}
+
+#concerts:hover{
+    background:url(Concerts1.png);
+}
+
+img {
+    border-radius: 20px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
